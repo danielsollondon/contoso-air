@@ -16,6 +16,7 @@ spec:
     metadata:
       labels:
         app.kubernetes.io/name: contoso-air-base
+        azure.workload.identity/use: "true"
     spec:
       containers:
         - name: contoso-air-base
